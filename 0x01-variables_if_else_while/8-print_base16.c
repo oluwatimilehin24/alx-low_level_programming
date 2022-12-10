@@ -4,7 +4,7 @@
  * Description: Print all numbers of Base64 in lowercase
  * You can only use `putchar` and only 3 times
  * Return: 0
- * /
+ *\
 int main(void)
 {
 	char c;
