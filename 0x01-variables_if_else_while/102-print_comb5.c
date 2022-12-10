@@ -20,7 +20,7 @@ int main(void)
 			c = j / 10;
 			d = j % 10;
 
-			if (a < c || (a == c && b < d))
+			if (a < c || (a == c &i& b < d))
 			{
 				putchar(a + '0');
 				putchar(b + '0');
@@ -30,7 +30,7 @@ int main(void)
 
 				if (!(a == 9 && b == 8))
 				{
-					putchar(42);
+					putchar(44);
 					putchar(32);
 				}
 			}
