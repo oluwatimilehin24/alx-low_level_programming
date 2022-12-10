@@ -1,4 +1,4 @@
-#include <std.io>
+#include <stdio.h>
 /**
  * main - main block
  * Description: Use `put char` to print uppercase and lowercase alphabet
