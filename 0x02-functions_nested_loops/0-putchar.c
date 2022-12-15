@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char word[] = "Programming is fun, and reusable in style";
+	char word[] = "_putchar";
 	int i = 0;
 
 	while (word[i] != '\0')
