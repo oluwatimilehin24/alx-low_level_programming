@@ -5,7 +5,7 @@
  * Description: print +, or - depending on the number, along with return
  * Return: 1 if +, 0 if 0, and -1 if -
  */
-int print_sign (int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -17,7 +17,7 @@ int print_sign (int n)
 		_putchar ('-');
 		return (-1);
 	}
-	else 
+	else
 	{
 		_putchar ('0');
 		return (0);
