@@ -13,7 +13,7 @@ int main(void)
 	long int c;
 
 	printf("%lu, ", a);
-	while (count <= 50)
+	while (i <= 50)
 	{
 		if (i == 50)
 		{
