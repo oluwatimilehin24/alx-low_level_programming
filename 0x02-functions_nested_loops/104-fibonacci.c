@@ -22,7 +22,7 @@ int main(void)
 			f = a1 + a2 + d;
 			a1 = a2, a2 = f;
 			b1 = b2, b2 = e;
-			printf("%lu%0101u", a2, b2);
+			printf("%lu%010lu", a2, b2);
 		}
 		else
 		{
@@ -30,7 +30,7 @@ int main(void)
 			b1 = b2, b2 = e;
 			printf("%lu", b2);
 		}
-		if (count != 97)
+		if (i != 97)
 			printf(", ");
 	}
 	printf("\n");
