@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_numbers - print the numbers from 0 to 9
  * Description: You can only use _putchar twice
@@ -10,7 +10,7 @@ void print_numbers(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		putchar(i);
+		_putchar(i);
 	}
 	putchar(10);
 }
