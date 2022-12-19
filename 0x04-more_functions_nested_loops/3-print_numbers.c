@@ -9,12 +9,9 @@ void print_numbers(void)
 	int i;
 
 	i = 0;
-	while (i < 10)
+	for (i = 48; i < 58; i++)
 	{
-		_putchar(i + '0');
-		i++;
+		putchar(i);
 	}
-	_putchar('\n');
-	
-	return (0);
+	putchar(10);
 }
