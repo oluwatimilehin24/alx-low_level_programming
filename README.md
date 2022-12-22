@@ -1,1 +1,1 @@
-Preprocessor task in C
+pointers, arrays and strings
