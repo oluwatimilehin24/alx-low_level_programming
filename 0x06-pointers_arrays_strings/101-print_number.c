@@ -1,46 +1,25 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_number - Print an integer using only _putchar
- * @n: integer to print
+ * print_number - prints any integer with putchar
+ * @n: Number to prints
+ * Return: Always 0
  */
 
 void print_number(int n)
 {
-	int power;
-	int neg;
-	int hold;
+	unsigned int x;
+
 	if (n < 0)
 	{
-		putchar('-');
-		neg = 1;
+		_putchar('-');
+		n *= -1;
 	}
 
-	while (hold > 9 || hold < -9)
-	{
-		power *= 10;
-		hold /= 10;
-	}
+	x = n;
 
-	while (power > 0)
-	{
-		if (power > 9)
-		{
-			if (!neg)
-				putchar((n / power % 10) + '0');
-			else
-				putchar((n / power % 10) * -1 + '0');
-
-			power /= 10;
-		}
-		if (power == 1)
-		{
-			if (neg)
-				putchar((n % 10) * -1 + '0');
-			else
-				putchar(n % 10 + '0');
-			power = 0;
-		}
-	}
-}
+	if (x / 100)
+		print_number(x / 10);
+	
+	_putchar(x % 10 + '0');
+}	
