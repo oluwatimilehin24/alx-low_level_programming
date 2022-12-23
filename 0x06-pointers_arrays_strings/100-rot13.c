@@ -12,13 +12,13 @@ char *rot13(char *s)
 	char storeh[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char store1[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	for (i = 0; *(s + 1); i++)
+	for (i = 0; *(s + i); i++)
 	{
 		for (j = 0; j < 52; j++)
 		{
 			if (storeh[j] == *(s + i))
 			{
-				*(s + 1) = store1[j];
+				*(s + i) = store1[j];
 				break;
 			}
 		}
