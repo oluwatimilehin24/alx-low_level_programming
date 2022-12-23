@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * rot13 - rotate characters 13 places in the alphabet
- * @s: string
- * Return: string `s` rotated
+ * rot13 - encode a string into rot13
+ * @s: string to encode
+ * Return: address of s
  */
 
 char *rot13(char *s)
