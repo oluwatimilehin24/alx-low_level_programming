@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_number - prints any integer with putchar
@@ -12,14 +13,14 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		_putchar('-');
-		x *= -1;
+		x = -n;
+		_putchar('-')
 	}
-
-	x = n;
+	else
+		x = n;
 
 	if (x / 10)
-		putchar(x / 10);
+		print_number(x / 10);
 	
-	putchar(x % 10 + '0');
+	_putchar((x % 10) + '0');
 }
