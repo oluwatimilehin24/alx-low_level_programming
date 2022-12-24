@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_number - prints any integer with putchar
  * @n: Number to prints
- * Return: Always 0
+ * Return: Nothing
  */
 
 void print_number(int n)
@@ -13,7 +12,7 @@ void print_number(int n)
 
 	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		n *= -1;
 	}
 
@@ -22,5 +21,5 @@ void print_number(int n)
 	if (x / 10)
 		print_number(x / 10);
 	
-	putchar(x % 10 + '0');
+	_putchar(x % 10 + '0');
 }	
