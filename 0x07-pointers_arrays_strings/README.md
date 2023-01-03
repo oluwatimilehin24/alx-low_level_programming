@@ -1,0 +1,1 @@
+poiinters strings and array
