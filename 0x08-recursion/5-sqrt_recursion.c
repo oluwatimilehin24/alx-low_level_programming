@@ -4,7 +4,7 @@
  * check_int - checks integer as candidate for square root
  * @square: square integer
  * @x: integer
- * Return: 1 if 
+ * Return: 1 if
  */
 
 int check_int(int square, int x)
