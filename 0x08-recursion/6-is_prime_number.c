@@ -36,7 +36,7 @@ int hai(int n, int d)
 }
 
 /**
- * is_prine_number - determine if a number is a prime number
+ * is_prime_number - determine if a number is a prime number
  * @n: int number
  * Return: 1 if prime, 0 otherwise
  */
