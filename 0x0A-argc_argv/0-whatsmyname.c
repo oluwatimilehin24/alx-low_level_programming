@@ -3,8 +3,8 @@
 
 /**
  * main - print the name of the file and new line
- * @argc: is arguement count
- * @argv is arguement vector[]
+ * @argc: is argument count
+ * @argv is argument vector[]
  * Return: 0
  */
 
@@ -16,6 +16,5 @@ int main(int argc, char *argv[])
 	{
 		printf("%s\n", argv[i]);
 	}
-
 	return (0);
 }
