@@ -4,7 +4,7 @@
 /**
  * main - print the name of the file and new line
  * @argc: is argument count
- * @argv is argument vector[]
+ * @argv: is argument vector[]
  * Return: 0
  */
 
