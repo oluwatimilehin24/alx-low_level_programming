@@ -8,7 +8,7 @@
  * Return: no of words in the string
  */
 
-int wordnos(char * s)
+int wordnos(char *s)
 {
 	int flag, c, w;
 
@@ -58,12 +58,12 @@ char **strtow(char *str)
 			if (c)
 			{
 				end = i;
-				tmp = (char *) malloc(sizeof(char) + (c +1));
+				tmp = (char *) malloc(sizeof(char) + (c + 1));
 				if (tmp == NULL)
 					return (NULL);
 				while (start < end)
 					*tmp++ = str[start++];
-				*tmp ='\0';
+				*tmp = '\0';
 				matrix[k] = tmp - c;
 				k++;
 				c = 0;
