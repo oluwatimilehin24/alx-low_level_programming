@@ -3,7 +3,7 @@
 
 /**
  * argstostr - concatenates all arguments of the program
- * @c: argument count
+ * @ac: argument count
  * @av: pointer to the array of size ac
  * Return: NULL if ac == 0 or av == NULL, Pointer to new string
  * NULL on fail
