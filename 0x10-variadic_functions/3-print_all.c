@@ -72,11 +72,11 @@ void print_all(const char * const format, ...)
 	{
 		j = i % 4;
 		if (storage[j].type[0] == format[i / 4])
-			{
+		{
 				printf("%s", sep);
 				storage[j].f(args);
 				sep = ", ";
-			}
+		}
 		i++;
 	}
 	printf("\n");
